@@ -24,9 +24,3 @@ This project provides a Python-based cache simulator for educational and experim
 ```sh
 python cache_simulator.py --type d --cache_size 2048 --block_size 64 --memfile memory_addresses.txt
 
-Arguments
---type (required): Specifies the cache type. Use d for direct-mapped cache and s for set associative cache.
---nway (optional for s type): The number of ways for a set associative cache. This parameter is required if the --type is set to s.
---cache_size (required): Total cache size in bytes. The value must be a power of two.
---block_size (required): Block size in bytes. The value must be a power of two.
---memfile (required): Path to the input file containing memory addresses in hexadecimal format. Each address should be on a separate line.
