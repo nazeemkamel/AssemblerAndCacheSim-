@@ -53,13 +53,4 @@ python cache_simulator.py <path_to_configuration_file> <path_to_trace_file>
 
 Replace \`<path_to_configuration_file>\` and \`<path_to_trace_file>\` with the path to your cache configuration and instruction trace files, respectively.
 
-## Contributing
 
-Contributions to the repository are welcome. Please ensure to follow the existing coding style and add comments to your code.
-
-## License
-
-This project is open-sourced under the MIT License. See the LICENSE file for more details.
-`;
-
-console.log(READMEContent);
